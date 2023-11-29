@@ -1,0 +1,346 @@
+@import url(../css/common.css);
+@import url(../css/header.css);
+@import url(../css/responsive.css);
+@import url(../css/loading.css);
+@import url(../css/loading-spinner.css);
+@font-face {
+  font-family: Orbitron-Regular;
+  src: url(../fonts/Orbitron-Regular.ttf);
+}
+
+/* --------- */
+
+#partners-section {
+  padding: 120px 0px;
+  background-color: var(--yellow);
+}
+
+.top-center-box {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#partners-section h2 {
+  font-family: var(--regular);
+  font-weight: 400;
+  font-size: 48px;
+  color: var(--grey-22);
+  text-align: center;
+}
+
+.partners-flex p {
+  color: var(--grey-55) !important;
+  text-align: center;
+  margin: 40px 0px;
+}
+
+.partners-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.partners-bottom img {
+  width: 14%;
+}
+
+/* ------- */
+
+#team-section {
+  padding: 100px 0px;
+  background-image: url(../images/game-banner.svg);
+  background-size: cover;
+}
+
+#team-section h2 {
+  font-family: var(--regular);
+  font-weight: 400;
+  font-size: 64px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.top-box p {
+  color: var(--grey-df) !important;
+  text-align: center;
+  margin: 40px 0px;
+}
+
+.team-bottom {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.team-flex .cards {
+  padding: 35px 40px;
+  margin: 0px 0px 35px 0px;
+  display: flex;
+  justify-content: space-between;
+  width: 42%;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 20px;
+}
+
+.team-bottom h3 {
+  margin: 0px 0px 20px 0px;
+  font-family: var(--regular);
+  font-weight: 400;
+  font-size: 32px;
+  color: #ffffff;
+}
+
+.card-paragraph {
+  font-family: var(--regular);
+  font-weight: 400;
+  font-size: 18px !important;
+  color: var(--grey-df);
+}
+
+.cards-item img {
+  width: 62px !important;
+}
+
+.cards-item:nth-child(1) {
+  padding-right: 20px;
+  padding-top: 10px;
+}
+
+/* ------- */
+
+#about-section {
+  padding: 260px 0px;
+  background-color: var(--black-00);
+}
+
+.about-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about-left {
+  width: 60%;
+}
+
+.about-right {
+  margin-top: 90px;
+  width: 30%;
+}
+
+.about-left h1 {
+  font-family: var(--regular);
+  font-weight: 400;
+  font-size: 64px;
+  color: var(--white);
+}
+
+.about-left p {
+  margin: 40px 0px;
+}
+
+.btn-active {
+  background-color: var(--blue) !important;
+  border: 1px solid var(--black);
+}
+
+.btn-active:hover {
+  background-color: transparent !important;
+  border: 1px solid var(--white);
+}
+
+.power-button {
+  position: relative;
+  top: -120px;
+  right: -65px;
+  z-index: 2;
+}
+
+/* ------- */
+
+.card-flex {
+  display: flex;
+}
+
+.card-box h4 {
+  margin-top: 30px;
+  font-family: var(--regular);
+  font-weight: 400;
+  font-size: 48px;
+  color: #ffffff;
+}
+
+.card-box:nth-child(1) {
+  background-image: url(../images/smooth_fps.svg);
+  background-size: cover;
+  width: 33.3%;
+  padding: 300px 0px;
+}
+
+.card-box:nth-child(2) {
+  background-image: url(../images/multiplayer.svg);
+  background-size: cover;
+  width: 33.3%;
+  padding: 300px 0px;
+}
+
+.card-box:nth-child(3) {
+  background-image: url(../images/open-world.svg);
+  background-size: cover;
+  width: 33.3%;
+  padding: 300px 0px;
+}
+
+.card-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+/* ------- */
+
+#shop-section {
+  padding: 85px 0px;
+  background-color: var(--black);
+}
+
+.shop-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.shop-left,
+.shop-right {
+  display: flex;
+  flex-direction: column;
+  width: 49%;
+}
+
+.right-flex {
+  display: flex;
+  justify-content: end;
+  padding: 120px 0px 150px 0px;
+}
+
+.card-shop {
+  display: flex;
+  justify-content: space-between;
+flex-wrap: wrap;
+}
+
+.card__shop {
+  display: flex;
+  flex-direction: column;
+  width: 48%;
+
+}
+
+.shop-flex h1 {
+  font-family: var(--regular);
+  font-weight: 400;
+  font-size: 64px;
+  color: var(--white);
+}
+
+.shop-left h1 {
+  margin-bottom: 70px;
+}
+
+.shop-paragraph {
+  font-family: var(--regular);
+  font-weight: 400;
+  font-size: 36px;
+  color: var(--white);
+}
+
+.card__shop p {
+  margin-bottom: 40px;
+  font-family: var(--regular);
+  font-weight: 400;
+  font-size: 23px;
+  text-transform: capitalize;
+  color: var(--white);
+}
+
+.card-shop time {
+  margin: 30px 0px;
+  font-family: var(--regular);
+  font-weight: 400;
+  font-size: 18px;
+  color: var(--blue);
+}
+
+.shop-left time {
+  margin: 50px 0px 30px;
+  font-family: var(--regular);
+  font-weight: 400;
+  font-size: 18px;
+  color: var(--blue);
+}
+
+/* ------- */
+
+#contact-section {
+  background-image: url(../images/contact-image.svg);
+  background-size: cover;
+  padding: 130px;
+}
+
+#contact-section p {
+  text-align: center;
+  color: var(--grey-55) !important;
+}
+
+.contact-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-flex h1 {
+  font-family: var(--regular);
+  font-weight: 400;
+  font-size: 64px;
+  color: #ffffff;
+  text-align: center;
+}
+
+form {
+  display: flex;
+}
+
+input::placeholder {
+  padding: 20px 0px;
+  font-family: var(--regular);
+  font-weight: 300;
+  font-size: 16px;
+  color: var(--grey-55);
+  background-color: #ffffff;
+}
+
+input {
+  padding-left: 13px;
+  width: 445px;
+  background-color: #ffffff;
+}
+
+.btn-contact {
+  padding: 18px 30px;
+  font-family: var(--regular);
+  font-weight: 600;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: var(--blue);
+  border: 1px solid var(--blue);
+}
+
+.btn-contact:hover {
+  background-color: #ffffff;
+  color: var(--blue);
+  border: 1px solid var(--white);
+}
